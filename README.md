@@ -38,6 +38,10 @@ En Vercel, Netlify o un servicio equivalente:
 
 En AWS, el contenido de `dist/` puede publicarse en S3 y distribuirse mediante CloudFront. La aplicación usa React Router, por lo que el hosting debe redirigir rutas desconocidas a `index.html`.
 
+La maqueta también se publica automáticamente mediante GitHub Pages:
+
+<https://igozze.github.io/invoice/>
+
 ## Alcance
 
 Esta versión es una maqueta. Los cambios se mantienen solo en memoria y se reinician al recargar. No incluye autenticación, base de datos, almacenamiento real de archivos ni API.
